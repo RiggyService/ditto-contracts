@@ -6,10 +6,7 @@
     "compile": "truffle compile",
     "prepublishOnly": "yarn run compile && node scripts/prepublish.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ditto-money/ditto-contracts.git"
-  },
+  "repository": "git+https://github.com/Ditto-money/ditto-contracts.git",
   "keywords": [
     "ditto",
     "staking",
@@ -38,7 +35,8 @@
     "chai-bignumber": "^3.0.0",
     "truffle": "^5.1.58",
     "truffle-flattener": "^1.4.4",
-    "web3": "^1.3.1"
+    "web3": "^1.3.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
@@ -47,5 +45,6 @@
     "solidity-coverage": "^0.7.13",
     "super-web3-provider": "0.0.21",
     "token-test-suite": "^0.1.1"
-  }
+  },
+  "main": "index.js"
 }
